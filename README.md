@@ -24,8 +24,6 @@ Recipe Page, newbie Frontend Mentor challenge. This is the second challenge that
 #### Desktop Screenshot
 ![Desktop](./screenshots/DesktopRecipePage.png)
 
-#### Mobile Screenshot
-![Mobile](./screenshots/MobileRecipePage.png)
 
 ### Links
 
