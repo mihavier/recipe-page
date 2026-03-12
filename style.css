@@ -1,0 +1,242 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+  text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+  scroll-margin-block: 5ex;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Young-serif;
+    src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    background-color: #f2e5d8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+}
+.project h1{
+  margin-bottom: 2rem;
+  color: #79380a;
+  font-family: Young-serif;
+  
+}
+
+
+.card {
+    border-color: #fff;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.header {
+  padding: 0.69rem;
+}
+
+.header h2 {
+  font-family: Young-serif;
+}
+.header p {
+  font-family: Outfit;
+  color: #615e5c;
+  margin-bottom: 1rem;
+}
+.sub-title {
+  font-family: Outfit;
+  font-weight: bold;
+  color: #690a42;
+}
+.prep {
+  border-style: solid;
+  border-radius: 0.94rem;
+  border-color: #f7eee5;
+  background-color: #f7eee5;
+
+  min-height: 10rem;
+  max-width: 100%;
+  padding: 0.69rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+ 
+}
+.prep p {
+    font-family: Outfit;
+    font-weight: bold;
+}
+
+.sub-header {
+  padding: 0.69rem;
+}
+
+.sub-header h3{
+    font-family: Young-serif;
+    font-weight: bold;
+    color: #a75b29;
+}
+li {
+    font-family: Outfit;
+}
+
+p {
+    font-family: Outfit;
+}
+
+td {
+  font-family: Outfit;
+}
+
+hr {
+  background-color: #a09d9a;
+  width: 80%;
+  align-items: center;
+}
+
+.sub-header p {
+  margin-bottom: 2rem;
+}
+
+.facts td{
+  text-align: left;
+}
+.facts-val  td{
+  text-align: end;
+}
+
+.facts-val {
+  font-weight: bold;
+  color: #a75b29;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr{
+  border-bottom: 0.13rem solid #a09d9a;
+}
+
+td {
+  width: 100%;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (min-width: 768px) {
+  .card {
+    border-style: solid;
+    border-radius: 0.94rem;
+    border-color: #fff;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 100svb;
+    max-width: 20rem;
+    margin-bottom: 2rem;
+    padding: 1.3rem;
+  }
+
+  .card img {   
+    border-radius: 0.69rem;
+    width: 100%;
+  }
+  
+}
