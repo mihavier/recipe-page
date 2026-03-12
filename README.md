@@ -29,8 +29,8 @@ Recipe Page, newbie Frontend Mentor challenge. This is the second challenge that
 
 ### Links
 
-- Solution URL: [Github](https://github.com/FWeni/RecipePage)
-- Live Site URL: [Gitpages](https://fweni.github.io/RecipePage/)
+- Solution URL: [Github](https://github.com/mihavier/recipe-page)
+- Live Site URL: [Gitpages](https://mihavier.github.io/recipe-page/)
 
 ## My process
 
@@ -52,28 +52,3 @@ To see how you can add code snippets, see below:
 <li>
   <b>Total</b>: Approximately 10 minutes
 </li>
-```
-```css
-table {
-  border-collapse: collapse;
-}
-
-tr{
-  border-bottom: 0.13rem solid #a09d9a;
-}
-```
-
-
-### Continued development
-
-I want to continue developing with HTML, CSS and Javascript, on a couple of projects. I want to truly learn responsive web development. 
-
-### Useful resources
-
-- [w3schools](https://www.w3schools.com/) - This helped me with implementing some compontents in the solution. like making certian sections of the text be bold, I used the b tag and hr tag I used for the line that is acting as a divider.
-- [Deque University](https://dequeuniversity.com/rules/axe/4.6/region?application=axeAPI) - This is an amazing article which helped me finally understand the landmarks. I'd recommend it to anyone who is still new to HTML or coding.
-- [Piccalilli](https://piccalil.li/blog/a-more-modern-css-reset/) - I have referenced how to reset css from this site.
-
-## Author
-
-- Frontend Mentor - [@FWeni](https://www.frontendmentor.io/profile/FWeni)
